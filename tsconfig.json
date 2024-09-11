@@ -1,0 +1,18 @@
+{
+  "include": [
+    "vite.config.*",
+    "vitest.config.*",
+    "cypress.config.*",
+    "nightwatch.conf.*",
+    "playwright.config.*",
+    "env.d.ts",
+    "src/**/*",
+    "src/**/*.vue"
+  ],
+  "vueCompilerOptions": {
+    "target": 3
+  },
+  "compilerOptions": {
+    "strict": false,
+  }
+}
